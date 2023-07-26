@@ -170,7 +170,7 @@
                         </figure>
                           <div class="card-body items-center text-center space-y-6">
                             <h2 class="card-title">12.90$ - 18.85$</h2>
-      
+                            <hr class="w-48">
                             <p>Apples</p>
                                 <div class="rating">
                                   <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
@@ -216,7 +216,7 @@
                         </figure>
                           <div class="card-body items-center text-center space-y-6">
                             <h2 class="card-title">12.90$ - 18.85$</h2>
-      
+                            <hr class="w-48">
                             <p>Apples</p>
                                 <div class="rating">
                                   <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -263,7 +263,7 @@
                       </figure>
                         <div class="card-body items-center text-center space-y-6">
                           <h2 class="card-title">12.90$ - 18.85$</h2>
-      
+                          <hr class="w-48">
                           <p>Apples</p>
                               <div class="rating">
                                 <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
@@ -310,7 +310,7 @@
                     </figure>
                       <div class="card-body items-center text-center space-y-6">
                         <h2 class="card-title">12.90$ - 18.85$</h2>
-    
+                        <hr class="w-48">
                         <p>Apples</p>
                             <div class="rating">
                               <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
@@ -359,10 +359,10 @@
             <!-- meet the team -->
             <section class="md:mx-40 mt-8 pb-32">
 
-              <div class="bg-[url('./images/team.png')] text-center text-white ">
+              <div class="bg-[url('./images/team.png')] text-center text-white bg-no-repeat">
                 <div class="pt-16 justify-center text-center">
-                  <h1 class="text-5xl font-extrabold">Meet the team section</h1>   
-                      <p class="pt-3">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
+                  <h1 class="text-xl md:text-5xl font-extrabold">Meet the team section</h1>   
+                      <p class="text-sm lg:text-xl pt-3">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-4 pt-9">
 
@@ -431,16 +431,17 @@
               </div>
 
               <!-- image and info part -->
-              <div class="flex ">
+              <div class="grid sm:grid-cols-1 lg:grid-cols-3">
 
                   <!-- first info -->
-                  <div class="flex-1 space-y-8 mt-1">
-                    <div class="flex gap-1">
+                  <div class="flex-1 space-y-9 mt-1">
+                    <div class="flex gap-1 sm:flex-col md:flex-row">
                       <div class="h-9 w-14 bg-gray-400 rounded-full text-center pt-1">
                         <span><i class="fa-solid fa-users"></i></span>
                       </div>
                       <div>
                         <h4 class="text-xl font-bold">Dedicated Team</h4>
+                        
                         <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                       </div>
                     </div>
@@ -473,7 +474,7 @@
                   </div>
 
                   <!-- last info -->
-                  <div class="flex-1 space-y-8 text-end mt-1">
+                  <div class="flex-1 space-y-9 text-end mt-1">
 
                     <div class="flex gap-1">                   
                       <div>
@@ -511,9 +512,35 @@
             </section>
  
         </main>
-    <footer>
+        <footer class=" footer-center p-10 bg-[#121212] rounded ">
 
-    </footer>
+         
+            <div class="flex items-center justify-center mb-3">
+              <img class="w-6 h-7 lg:w-10 " src="./images/logo.png" alt="">
+              <a class="text-3xl lg:text-4xl font-bold text-white">Fruit Burst</a>
+            </div>
+          
+
+          <div class="flex flex-wrap justify-center gap-6 text-white ">
+            <a class="link link-hover">Home</a> 
+            <a class="link link-hover">About us</a> 
+            <a class="link link-hover">Shop</a> 
+            <a class="link link-hover">All fruit</a> 
+            <a class="link link-hover">Support </a> 
+            <a class="link link-hover">Account</a>
+          </div> 
+          <div class="mt-6">
+            <div class="flex justify-center gap-6 text-white text-3xl">
+              <span><i class="fa-brands fa-square-twitter "></i></span>
+              <span><i class="fa-brands fa-facebook "></i></span>
+              <span><i class="fa-brands fa-square-youtube "></i></span>
+              <span><i class="fa-brands fa-linkedin "></i></span>
+              <span><i class="fa-brands fa-instagram "></i></span>
+              <span><i class="fa-brands fa-apple "></i></span>
+            </div>
+          </div> 
+          
+        </footer>
 </body>
 </html>
 
