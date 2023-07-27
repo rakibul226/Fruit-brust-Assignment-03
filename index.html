@@ -29,7 +29,6 @@
            <div class="navbar navigation flex-row-reverse gap-44 lg:gap-36 lg:flex-row  bg-[#F85559] border rounded-full text-white py-2 px-7 mb-10">
                 <!-- firs-part -->
                <div class="dropdown  ">
-
                     <!-- for small screen -->
                     <div class="lg:hidden">
                         <label tabindex="0" class="btn btn-ghost btn-circle">
@@ -42,7 +41,6 @@
                                     <li>All Fruit</li>
                         </ul>
                     </div>
-
                     <!-- for large screen -->
                     <div class="navbar-start hidden lg:contents ">
                         <ul class="flex gap-8 text-lg">
@@ -53,7 +51,6 @@
                         </ul>
                      </div>
                 </div>
-
               <!-- middle -->
                 <div class="gap-1 md:gap-40">
                     <div class="flex items-center">
@@ -108,6 +105,16 @@
                         <p class="text-sm md:text-xl">We supply highly quality organic products</p>
                         <button class="btn bg-[#F85559] border-none text-white">Shop Now</button>
                     </div>
+
+                    <div class="hidden md:contents">
+                      <div class="absolute flex bg-white shadow-md h-44 w-10/12 justify-around ml-24 items-center rounded-md -bottom-20">
+                        <img class="w-28 h-24" src="images/fruit1.png" alt="">
+                        <img class="w-28 h-24" src="images/fruit2.png" alt="">
+                        <img class="w-28 h-24" src="images/fruit3.png" alt="">
+                        <img class="w-28 h-24" src="images/fruit4.png" alt="">
+                        <img class="w-28 h-24" src="images/fruit5.png" alt="">
+                    </div>
+                    </div>
                     
                     
                   
@@ -123,7 +130,7 @@
     </header>
         <main>
             <!-- deal of the day -->
-            <section class="md:mx-40 mt-8 ">
+            <section class="md:mx-40 mt-8 md:mt-40 ">
                <div class="flex flex-col lg:flex-row mb-12">
 
                     <!-- the text -->
@@ -359,10 +366,10 @@
             <!-- meet the team -->
             <section class="md:mx-40 mt-8 pb-32">
 
-              <div class="bg-[url('./images/team.png')] text-center text-white bg-no-repeat">
-                <div class="pt-16 justify-center text-center">
+              <div class="bg-[url('./images/team.png')] text-center text-white bg-no-repeat ">
+                <div class="pt-16 justify-center text-center mx-4">
                   <h1 class="text-xl md:text-5xl font-extrabold">Meet the team section</h1>   
-                      <p class="text-sm lg:text-xl pt-3">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
+                      <p class="text-sm lg:text-xl pt-3 ">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-4 pt-9">
 
@@ -427,6 +434,7 @@
             <section class="md:mx-40 mt-8 pb-32 gap-10">
               <div class=" justify-center text-center mb-9">
                 <h1 class="text-5xl font-extrabold">Why Choose Us</h1>   
+                    
                     <p class="pt-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
               </div>
 
@@ -441,7 +449,7 @@
                       </div>
                       <div>
                         <h4 class="text-xl font-bold">Dedicated Team</h4>
-                        
+                        <hr class="w-24">
                         <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                       </div>
                     </div>
@@ -452,6 +460,7 @@
                       </div>
                       <div>
                         <h4 class="text-xl font-bold">Fresh is Best</h4>
+                        <hr class="w-24">
                         <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                       </div>
                     </div>
@@ -462,6 +471,7 @@
                       </div>
                       <div>
                         <h4 class="text-xl font-bold">Gift Certificates</h4>
+                        <hr class="w-24">
                         <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                       </div>
                     </div>
@@ -476,35 +486,39 @@
                   <!-- last info -->
                   <div class="flex-1 space-y-9 text-end mt-1">
 
-                    <div class="flex gap-1">                   
+                    <div class="flex flex-col-reverse  md:flex-row items-center text-center md:text-end md:items-start mx-4 gap-1 ">                    
                       <div>
-                        <h4 class="text-xl font-bold">Dedicated Team</h4>
+                        <h4 class="text-xl font-bold">Integrated Supplier</h4>
+                        <hr class="w-28 h-0.5 my-2 bg-black ml-36 md:ml-56" >
                         <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                       </div>
-                      <div class="h-9 w-14 bg-gray-400 rounded-full text-center pt-1">
-                        <span><i class="fa-brands fa-apple"></i></i></span>
-                      </div>
-                    </div>
-
-                    <div class="flex gap-1">                    
-                      <div>
-                        <h4 class="text-xl font-bold">Fresh is Best</h4>
-                        <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                      </div>
-                      <div class="h-9 w-14 bg-gray-400 rounded-full text-center pt-1">
-                        <span><i class="fa-solid fa-ice-cream"></i></span>
-                      </div>
-                    </div>
-
-                    <div class="flex gap-1">                   
-                      <div>
-                        <h4 class="text-xl font-bold">Gift Certificates</h4>
-                        <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                      </div>
-                      <div class="h-9 w-14 bg-gray-400 rounded-full text-center pt-1">
+                      <div class="w-9 h-9 md:w-14 bg-gray-400 rounded-full text-center px-0 md:px-2 md: pt-1">
                         <span><i class="fa-solid fa-thumbs-up"></i></span>
                       </div>
                     </div>
+
+                    <div class="flex flex-col-reverse  md:flex-row items-center text-center md:text-end md:items-start mx-4 gap-1 ">                    
+                      <div>
+                        <h4 class="text-xl font-bold">Sustainable Practice</h4>
+                        <hr class="w-28 h-0.5 my-2 bg-black ml-36 md:ml-56" >
+                        <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                      </div>
+                      <div class="w-9 h-9 md:w-14 bg-gray-400 rounded-full text-center px-0 md:px-2 md: pt-1">
+                        <span><i class="fa-solid fa-thumbs-up"></i></span>
+                      </div>
+                    </div>
+
+                    <!-- <div class="flex flex-col-reverse md:ml-36 md:flex-row text-center md:text-end  gap-1">                    -->
+                      <div class="flex flex-col-reverse  md:flex-row items-center text-center md:text-end md:items-start mx-4 gap-1 ">                    
+                        <div>
+                          <h4 class="text-xl font-bold">The Benefits Only</h4>
+                          <hr class="w-28 h-0.5 my-2 bg-black ml-36 md:ml-56" >
+                          <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </div>
+                        <div class="w-9 h-9 md:w-14 bg-gray-400 rounded-full text-center px-0 md:px-2 md: pt-1">
+                          <span><i class="fa-solid fa-thumbs-up"></i></span>
+                        </div>
+                      </div>
 
                   </div>
               </div>
